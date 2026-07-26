@@ -4,7 +4,7 @@ A utility for converting files to Markdown via the Windows context menu.
 
 ## What it does
 
-Adds a "Convert to Markdown" option to the file context menu in Windows Explorer. When selected, the file is converted PDF, Word, Excel, PowerPoint, images and other formats to .md using Microsoft's MarkItDown.
+Adds a "Convert to Markdown" option to the file context menu in Windows Explorer. When selected, the file is converted PDF, Word, Excel, PowerPoint, images and other formats to .md using Microsoft's [MarkItDown.](https://github.com/microsoft/MarkItDown)
 
 ## Installation
 
