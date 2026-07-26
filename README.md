@@ -4,7 +4,7 @@ A utility for converting files to Markdown via the Windows context menu.
 
 ## What it does
 
-Adds a "Convert to Markdown" option to the file context menu in Windows Explorer. When selected, the file is converted to Markdown using the Claude API.
+Adds a "Convert to Markdown" option to the file context menu in Windows Explorer. When selected, the file is converted PDF, Word, Excel, PowerPoint, images and other formats to .md using Microsoft's MarkItDown.
 
 ## Installation
 
@@ -44,7 +44,6 @@ uninstall.bat
 
 - Windows 10 or higher
 - PowerShell 5.1 or higher
-- Claude API key (Anthropic)
 
 ## Configuration
 
