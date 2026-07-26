@@ -1,55 +1,55 @@
 # Convert to Markdown
 
-Утилита для конвертации файлов в Markdown через контекстное меню Windows.
+A utility for converting files to Markdown via the Windows context menu.
 
-## Что это делает
+## What it does
 
-Добавляет пункт "Convert to Markdown" в контекстное меню файлов в проводнике Windows. При выборе этого пункта файл конвертируется в Markdown с помощью Claude API.
+Adds a "Convert to Markdown" option to the file context menu in Windows Explorer. When selected, the file is converted to Markdown using the Claude API.
 
-## Установка
+## Installation
 
-### Быстрая установка
+### Quick Install
 
-1. Скачайте проект:
+1. Download the project:
 ```bash
-git clone https://github.com/ваш-username/convert-to-markdown.git
+git clone https://github.com/your-username/convert-to-markdown.git
 cd convert-to-markdown
 ```
 
-2. Запустите установщик:
+2. Run the installer:
 ```bash
 install.bat
 ```
 
-### Что происходит при установке
+### What happens during installation
 
-- Скрипты копируются в `%APPDATA%\ConvertToMarkdown`
-- Добавляется пункт в контекстное меню через реестр Windows
-- Создается ярлык для быстрого доступа к настройкам
+- Scripts are copied to `%APPDATA%\ConvertToMarkdown`
+- A context menu entry is added via the Windows registry
+- A shortcut is created for quick access to settings
 
-## Использование
+## Usage
 
-1. Кликните правой кнопкой мыши на любом файле
-2. Выберите "Convert to Markdown"
-3. Файл будет конвертирован с помощью Claude API
+1. Right-click on any file
+2. Select "Convert to Markdown"
+3. The file will be converted using the Claude API
 
-## Удаление
+## Uninstallation
 
-Запустите:
+Run:
 ```bash
 uninstall.bat
 ```
 
-## Требования
+## Requirements
 
-- Windows 10 или выше
-- PowerShell 5.1 или выше
-- API ключ Claude (Anthropic)
+- Windows 10 or higher
+- PowerShell 5.1 or higher
+- Claude API key (Anthropic)
 
-## Конфигурация
+## Configuration
 
-API ключ и другие настройки хранятся в `%APPDATA%\ConvertToMarkdown\config.json`
+API key and other settings are stored in `%APPDATA%\ConvertToMarkdown\config.json`
 
-## Лицензия
+## License
 
 MIT
